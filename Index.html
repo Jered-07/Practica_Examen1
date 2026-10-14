@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quetzal · Guía de aves de Costa Rica</title>
+  <meta name="description" content="Guía de aves del bosque nuboso y las tierras bajas de Costa Rica: dónde viven, cuándo cantan y cómo reconocerlas." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">Quetzal<span>.</span></a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="especies.html">Especies</a></li>
+          <li><a href="bitacora.html">Bitácora</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <div class="hero">
+      <svg class="scene" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="plume" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#0e5a43" />
+            <stop offset="1" stop-color="#2fa37d" />
+          </linearGradient>
+        </defs>
+
+        
+        <path class="feather" pathLength="1" d="M1180 -20 C 1040 140, 980 330, 760 470 S 420 600, 250 690" stroke="url(#plume)" stroke-width="16" />
+        <path class="feather b" pathLength="1" d="M1130 -40 C 1010 90, 900 250, 700 400 S 380 560, 170 700" stroke="url(#plume)" stroke-width="9" opacity=".75" />
+
+        
+        <path d="M0 520 L120 470 L240 505 L380 430 L520 500 L660 445 L800 510 L940 455 L1080 500 L1200 460 L1200 700 L0 700Z" fill="#9dc0af" opacity=".55" />
+        <path d="M0 585 L140 530 L270 570 L420 505 L560 575 L700 520 L850 585 L1000 525 L1200 575 L1200 700 L0 700Z" fill="#4f9577" opacity=".8" />
+        <path d="M0 640 L160 600 L320 640 L480 595 L640 645 L800 605 L980 650 L1200 610 L1200 700 L0 700Z" fill="#0e5a43" />
+      </svg>
+
+      <div class="wrap">
+        <h1>Son las 5:40 y el bosque ya está hablando.</h1>
+        <p class="lead">Guía de aves del bosque nuboso y las tierras bajas de Costa Rica: dónde viven, a qué hora cantan y cómo reconocerlas antes de que se vayan.</p>
+        <div class="actions">
+          <a class="btn primary" href="especies.html">Ver especies</a>
+          <a class="btn ghost" href="bitacora.html">Anotar un avistamiento</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <section id="empezar">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Cuatro aves para empezar</h2>
+          <p>Costa Rica registra más de 900 especies de aves. Estas son las que más se buscan y las más fáciles de reconocer.</p>
+        </div>
+
+        <div class="species">
+          <article class="feature">
+            <h3>Quetzal resplendeciente</h3>
+            <div class="sci">Pharomachrus mocinno</div>
+            <p>Verde iridiscente, pecho rojo y una cola que puede triplicar el largo de su cuerpo. Anida en huecos de árboles muertos del bosque nuboso, entre abril y junio.</p>
+          </article>
+
+          <ul class="rows">
+            <li>
+              <h3>Lapa roja</h3>
+              <div class="sci">Ara macao</div>
+              <p>Se oye antes de verse. <strong>Mejor hora:</strong> primera luz, en Carara y la península de Osa.</p>
+            </li>
+            <li>
+              <h3>Pájaro campana</h3>
+              <div class="sci">Procnias tricarunculatus</div>
+              <p>Su canto metálico se escucha a más de un kilómetro. <strong>Dónde:</strong> Monteverde, de marzo a junio.</p>
+            </li>
+            <li>
+              <h3>Colibrí garganta de fuego</h3>
+              <div class="sci">Panterpe insignis</div>
+              <p>Pequeño, nervioso y con la garganta cambiante. <strong>Dónde:</strong> alturas sobre los 1 500 m, cerca de flores y bebederos.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="altitude" id="altura">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>El ave depende de la altura</h2>
+          <p>Subir mil metros en Costa Rica equivale a cambiar de país en cuanto a especies. Rangos aproximados, de abajo hacia arriba.</p>
+        </div>
+
+        <ol class="zones" style="list-style:none">
+          <li class="zone">
+            <div class="m">0 a 500 m<small>Tierras bajas del Pacífico</small></div>
+            <div>
+              <h3>Lapas, trogones y garzas</h3>
+              <p>Bosque seco y húmedo tropical, manglares y playas. Calor desde temprano: lo mejor es salir antes de las 7.</p>
+            </div>
+          </li>
+          <li class="zone">
+            <div class="m">500 a 1 200 m<small>Premontano</small></div>
+            <div>
+              <h3>Tucanes y tangaras</h3>
+              <p>Cafetales, bordes de bosque y fincas con árboles frutales. Donde más variedad de colores se ve en menos caminata.</p>
+            </div>
+          </li>
+          <li class="zone">
+            <div class="m">1 200 a 2 000 m<small>Bosque nuboso</small></div>
+            <div>
+              <h3>Quetzales y pájaros campana</h3>
+              <p>Neblina, musgo y aguacatillos silvestres. Se camina despacio y en silencio; el frío de la mañana ayuda.</p>
+            </div>
+          </li>
+          <li class="zone">
+            <div class="m">Sobre 2 000 m<small>Alta montaña</small></div>
+            <div>
+              <h3>Colibríes y juncos</h3>
+              <p>Robledales y páramo cerca del Cerro de la Muerte. Pocas especies, muchas de ellas que no se ven en ningún otro lugar.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    
+    <section id="explorar">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Dos formas de seguir</h2>
+        </div>
+
+        <div class="next">
+          <a class="panel a" href="especies.html">
+            <div>
+              <h3>Catálogo de especies</h3>
+              <p>Busca por nombre, zona de altura, color o tamaño, y abre la ficha de cada ave con foto, canto y mejor época.</p>
+            </div>
+            <span class="go">Explorar especies</span>
+          </a>
+
+          <a class="panel b" href="bitacora.html">
+            <div>
+              <h3>Bitácora de avistamientos</h3>
+              <p>Registra qué viste, dónde y a qué hora. Guarda tu lista y mira qué especies te faltan por encontrar.</p>
+            </div>
+            <span class="go">Abrir mi bitácora</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Quetzal · Proyecto de práctica, datos de ejemplo.</span>
+      <span>Costa Rica</span>
+    </div>
+  </footer>
+</body>
+</html>
