@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitacora</title>
+    <link rel="stylesheet" href="Bitacora.css" />
+  </head>
+
+  <body>
+    <main>
+      <header class="nav">
+        <div class="wrap">
+          <a class="brand" href="../Index.html">Quetzal<span>.</span></a>
+          <nav aria-label="Principal">
+            <ul>
+              <li><a href="../Index.html" aria-current="page">Inicio</a></li>
+              <li><a href="Especies.html">Especies</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section>
+        <h1>Bitacora De Especies</h1>
+          <form action="">
+            <div class="field">
+              <label for="name">Nombre de la especie: </label>
+              <input type="text" id="name" name="name" required />
+            </div>
+              
+            <div class="field">
+              <label for="lugar">Lugar de avistamiento</label>
+              <input type="text" id="lugar" name="lugar" required />
+            </div>
+
+            <div class="field">
+              <label for="fecha_hora">Fecha y hora</label>
+              <input type="datetime" id="fecha_hora" name="fecha_hora" required />
+            </div>
+
+            <div class="field">
+              <label for="description">Notas</label>
+              <textarea name="description" id="description"></textarea>
+            </div>
+          </form>
+        <button type="submit" class="btn_form">Enviar</button>
+      </section>
+
+      <footer>
+        <div class="wrap">
+          <span>Quetzal · Proyecto de práctica, datos de ejemplo.</span>
+          <span>Costa Rica</span>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
